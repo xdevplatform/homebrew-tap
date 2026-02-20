@@ -14,22 +14,22 @@ cask "xurl" do
   on_macos do
     on_intel do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Darwin_x86_64.tar.gz"
-      sha256 "71f86864d309b24b2c3d3248fc7ca94d4ca399c7f1ffe0f47e590cd0db4f9a63"
+      sha256 "b7af85dcce7a1156d88b62cf7a34bd880f5d3943fc8e701d4161d0f6d65ad69a"
     end
     on_arm do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Darwin_arm64.tar.gz"
-      sha256 "797667e1606cf57f4f033d0537c1668583b5744d3a6d965e82e852d02ec4373b"
+      sha256 "8a889a94802dc7ab6337e3e838bc4ee5a860107921596196a652dc276d6a8400"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Linux_x86_64.tar.gz"
-      sha256 "040097720c5d1a3a8b7077c417624ffc6c6577cbcb53eca4cdb031801fa0d96f"
+      sha256 "f95417064ad260c966ae254643764e1d3e32ce690f5fb53836a0bd7b1ee39c61"
     end
     on_arm do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Linux_arm64.tar.gz"
-      sha256 "f0181d6aa4a7e907ac52f48545154973dc465e76283174dfb05d64b3e23fb23d"
+      sha256 "32df5a2fdd4045c7d17e8e1c39d8657db6c5fcf0a454682023cf57cd59528cc7"
     end
   end
 
