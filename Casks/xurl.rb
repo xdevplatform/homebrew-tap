@@ -3,7 +3,7 @@ cask "xurl" do
   name "xurl"
   desc "Auth-enabled curl-like CLI for the X API"
   homepage "https://github.com/xdevplatform/xurl"
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "xurl" do
   on_macos do
     on_intel do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Darwin_x86_64.tar.gz"
-      sha256 "30feb126e8ec4f0ff11e19991457b513be1b3d901017fedc9c2b7a12b3875d11"
+      sha256 "e12f935e2170da1914ea16262667bfef731b0c43e75eb7741066ecfa0ed47a27"
     end
     on_arm do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Darwin_arm64.tar.gz"
-      sha256 "8bffb072d46527dee852e8b2c828633ed81fca99554f4cbe73916d431adcb9c2"
+      sha256 "d8858839bdeaa633ecac0e512d6964cd82a39b420517588df5504539cdcefafc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Linux_x86_64.tar.gz"
-      sha256 "0c023a95b65425c807d80beffca739aab71229e2fd1fc5219abd6ae8b203ec07"
+      sha256 "34bc67bfbaf29ae121f7788fbd2491d3a8b95cb3947333ad39732e694497c182"
     end
     on_arm do
       url "https://github.com/xdevplatform/xurl/releases/download/v#{version}/xurl_Linux_arm64.tar.gz"
-      sha256 "468bc12e4396809368c4c44fdd8e7aab8aa3395e8eeaa5a60cd88cbeab525837"
+      sha256 "3b56605e66508d7bc77c36cc711d41307b4cd76aec09111890b33f9d82975483"
     end
   end
 
